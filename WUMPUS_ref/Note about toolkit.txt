@@ -1,0 +1,14 @@
+Lưu ý khi chạy file toolkit:
+Vì folder toolkit này được cài đặt trên python 2.7, cho nên ta cần tạo môi trường ảo để compile nó
+B1: Tạo môi trường ảo
+Cài đặt anaconda
+Sau đó gõ lệnh sau vào cmd: conda create --name wumpus python=2.7
+Đợi cài đặt xong, thực hiện B2:
+B2: Kích hoạt môi trường ảo lên:
+conda activate wumpus
+cài đặt pygame: pip install pygame
+B3: chạy demo game:
+python wumpus_temp.py
+
+Vì folder này chưa source viết bằng python 2.7, cho nên các lệnh print sẽ theo python 2
+Mình code python 3, do đó sau này chỉ cần sửa lại print theo python 3 
